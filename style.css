@@ -5,44 +5,66 @@
 body {
   font-family:'Roboto';
   font-size: 0.5em;
-  margin: 0;
   background-color: white;
 }
 
 nav{
   background-color: #007AFF;
-  position: fixed;
+  /**position: top fixed;**/
   width: 100%;
-  height: 150px;
-  box-sizing: border-box;
-  border: none;
+  height: 200px;
 }
 
 .status-bar{
+  overflow:hidden;
+  background-color: #007AFF;
+  position: fixed;
+  top: 0;
   background-image: url("images/status-barx2.6.png");
   width: 100%;
 }
 
-h1{
+nav.content1{
+  width: 100%;
+  float: left;
+}
+
+.content1 h1{
   font-size:6em;
-  margin-top: 60px;
   color: white;
+  padding: 100px;
+  margin-top: 20px;
   text-align: center;
 }
 
 .arrow-left{
   float:left;
   box-sizing: border-box;
+  margin-top: 50px;
   padding: 60px 0 0 30px;
+  color: white;
+  clear: both;
 }
 
-/**.container2{
+.container2{
   box-sizing: border-box;
-  margin-top: 100px;
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-color: lavender;
-}**/
+}
+
+.location-icon{
+  margin-left: 30px;
+  padding: 50px 0 0 20px;
+  color: pink;
+  clear: both;
+}
+
+.change-icon{
+padding: 50px 20px 0 0;
+color: pink;
+clear: both;
+}
 
 .direction-box1{
   display: inline-block;
@@ -51,18 +73,16 @@ h1{
   height: 80px;
   margin-left: 120px;
   margin-bottom: 10px;
-  margin-top: 30px;
+  margin-top: 0;
   padding: 20px 20px 10px 30px;
   background-color: white;
   border: 1.5px solid grey;
-  clear: both;
 }
 
 span.f{
   font-weight: 500;
   font-size: 4em;
   color: grey;
-  /**text-align: left;**/
 }
 
 .direction-box2{
@@ -80,35 +100,22 @@ span.g{
   font-weight: 800;
   font-size: 4em;
   color:black;
-  /**text-align: left;**/
 }
-
-.location-icon{
-  width:100px;
-  height: 60px;
-  margin-top:100px;
-  margin-left: 50px;
-  padding: 50px 0 0 20px;
-  clear: both;
-}
-
-/**.change-icon{
-padding: 50px 20px 0 0;
-clear: both;
-}**/
 
 .map{
-  margin-top: 30px;
   background-image: url("images/map.png");
+  background-position: center fixed;
+  background-size: contain;
+  background-attachment: fixed;
   width: 100%;
-  height:700px;
+  height:600px;
 }
 
-.container{
+/**.container{
   background-color:white;
   width: 100%;
   margin: 0px auto;
-}
+}**/
 
 /**.location{
   display: block;
