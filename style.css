@@ -111,7 +111,7 @@ span.g{
   background-size: cover;
   /**position: relative;**/
   /**background-attachment: fixed;**/
-  width: 100%;
+  width: 375px;
   height:250px;
 }
 
@@ -124,6 +124,7 @@ li.a{
   font-weight: bold;
   font-size: 2em;
 }
+
 li.b{
   display: inline-block;
   width: 40%;
@@ -158,6 +159,11 @@ li.e{
   box-sizing: border-box;
   border-bottom: 1px solid grey;
   float: left;
-  width: 100%;
+  width: 375px;
   height: 50px;
+}
+
+.bus-schedule{
+  box-sizing: border-box;
+  width:375px;
 }
