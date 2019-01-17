@@ -185,7 +185,7 @@ li.d{
 li.change{
   display: inline-block;
   width: 20%;
-  padding: 20px 5px 5px 20px;
+  padding: 20px 5px 0 20px;
   color:#1a75ff;
   font-weight: bold;
   font-size: 1.7em;
@@ -194,7 +194,7 @@ li.change{
 li.alert{
   display: inline-block;
   width: 17%;
-  padding: 8px 0 0 20px;
+  padding: 6px 0 0 20px;
   color:#ff1a1a;
   font-weight: bold;
   font-size: 1.7em;
