@@ -8,6 +8,13 @@ body {
   background-color: white;
 }
 
+.wrapper{
+  width: 375px;
+  margin: auto;
+  height:667px;
+  overflow-y:scroll;
+}
+
 nav{
   background-color: #007AFF;
   width:375px;
@@ -68,7 +75,7 @@ nav.content1{
   background-color: white;
   border: 1.5px solid grey;
 }
-span.f{
+.f{
   font-weight: 200;
   font-size: 2em;
   color: grey;
@@ -97,64 +104,108 @@ span.f{
   padding: 8px 10px 0 10px;
 }
 
-span.g{
+.g{
   font-weight: 400;
   font-size: 2em;
   color:black;
 }
 
 .map{
-  background-image:url("images/map.PNG");
+  background-image:url("images/map3.PNG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /**position: relative;**/
   /**background-attachment: fixed;**/
-  width: 375px;
+  width: 100%;
   height:250px;
 }
 
 li.a{
   display: inline-block;
   width: 15%;
-  padding: 5px 5px 5px 20px;
+  padding: 5px 2px 5px 20px;
   border: none;
   background-color: white;
   font-weight: bold;
   font-size: 2em;
 }
 
+li.reroute{
+  display: inline-block;
+  border-radius: 5px;
+  width: 15%;
+  padding: 5px 2px 5px 20px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  background-color:#1a75ff;
+}
+
+li.outofservice{
+  display: inline-block;
+  border-radius: 5px;
+  width: 15%;
+  padding: 5px 2px 5px 20px;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-size: 2em;
+  background-color: #ff1a1a;
+  color: #ffffff;
+}
+
 li.b{
   display: inline-block;
   width: 40%;
-  font-weight: 600;
-  font-size: 1.5em;
+  font-weight: bold;
+  font-size: 1.7em;
 }
 
 li.c{
   display: inline-block;
-  width: 20%;
-  font-weight: 400;
+  width: 15%;
+  font-weight: 600;
   font-size: 1.5em;
   margin-top: 10px;
   text-align: left;
+  color: #484848;
 }
 
 li.d{
   display: inline-block;
   width: 15%;
-  padding: 10px 10px 10px 20px;
-  background-color: white;
+  padding: 10px 5px 10px 20px;
   font-weight: bold;
   font-size: 2.5em;
+
+}
+
+li.change{
+  display: inline-block;
+  width: 20%;
+  padding: 20px 5px 5px 20px;
+  color:#1a75ff;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+li.alert{
+  display: inline-block;
+  width: 27%;
+  padding: 5px 0 0 10px;
+  color:#ff1a1a;
+  font-weight: bold;
+  font-size: 1.7em;
 }
 
 li.e{
   display: inline-block;
   width: 5%;
-  padding: 10px 0 10px 0;
-  font-weight: 300;
-  font-size: 1em;
+  padding: 10px 0 5px 0;
+  font-weight: 500;
+  font-size: 1.5em;
 }
 
 .content{
@@ -167,5 +218,5 @@ li.e{
 
 .bus-schedule{
   box-sizing: border-box;
-  width:375px;
+  width:100%;
 }
