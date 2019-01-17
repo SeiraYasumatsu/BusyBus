@@ -133,7 +133,7 @@ li.a{
 
 li.reroute{
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 15px;
   width: 15%;
   padding: 5px 2px 5px 20px;
   border: none;
@@ -145,7 +145,7 @@ li.reroute{
 
 li.outofservice{
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 15px;
   width: 15%;
   padding: 5px 2px 5px 20px;
   border: none;
@@ -161,6 +161,7 @@ li.b{
   width: 40%;
   font-weight: bold;
   font-size: 1.7em;
+  padding-left: 10px;
 }
 
 li.c{
@@ -179,7 +180,6 @@ li.d{
   padding: 10px 5px 10px 20px;
   font-weight: bold;
   font-size: 2.5em;
-
 }
 
 li.change{
@@ -193,8 +193,8 @@ li.change{
 
 li.alert{
   display: inline-block;
-  width: 27%;
-  padding: 5px 0 0 10px;
+  width: 17%;
+  padding: 8px 0 0 20px;
   color:#ff1a1a;
   font-weight: bold;
   font-size: 1.7em;
