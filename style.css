@@ -47,7 +47,7 @@ nav.content1{
   float:left;
   box-sizing: border-box;
   margin-top: 10px;
-  padding: 10px 0 0 30px;
+  padding: 10px 0 0 20px;
   color: white;
 }
 
@@ -127,35 +127,21 @@ li.a{
   border: none;
   background-color: white;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2.3em;
 }
 
-li.reroute{
-  display: inline-block;
-  border-radius: 15px;
-  width: 15%;
-  padding: 5px 2px 5px 20px;
-  border: none;
+.reroute{
   color: #1a75ff;
-  font-weight: bold;
-  font-size: 2em;
 }
 
-li.outofservice{
-  display: inline-block;
-  border-radius: 15px;
-  width: 15%;
-  padding: 5px 2px 5px 20px;
-  border: none;
-  font-weight: bold;
-  font-size: 2em;
+.outofservice{
   color: #ff1a1a;
 }
 
 li.b{
   display: inline-block;
   width: 40%;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 1.7em;
   padding-left: 10px;
 }
@@ -163,7 +149,7 @@ li.b{
 li.c{
   display: inline-block;
   width: 15%;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1.5em;
   margin-top: 10px;
   text-align: left;
@@ -175,7 +161,7 @@ li.d{
   width: 15%;
   padding: 10px 5px 10px 20px;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 2.3em;
 }
 
 li.change{
