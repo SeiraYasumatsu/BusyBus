@@ -1,11 +1,10 @@
-#Busy Bus Project
+# Busy Bus Project
 
 _Designed and developed a simple bus iOS mobile application to navigate bus users with ease._
 
-[Prototype here] (https://seirayasumatsu.github.io/BusyBus/)
+[Prototype here](https://seirayasumatsu.github.io/BusyBus/)
 
-![Image]
-(https://drive.google.com/file/d/1z2YNfOR754bsVUY6c6qbuIIBUn8PmVdA/view?usp=sharing)
+![Image](https://drive.google.com/file/d/1z2YNfOR754bsVUY6c6qbuIIBUn8PmVdA/view?usp=sharing)
 
 **Design Deliverables**
 * User Research
