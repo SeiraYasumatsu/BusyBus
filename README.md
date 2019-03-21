@@ -1,7 +1,10 @@
-#Busy Bus Project
+# Busy Bus Project
 
-![Image]
-(https://drive.google.com/file/d/1cVPzHbL4jueeZOEnlUSFspAcwXc8WRen/view?usp=sharing)
+_Designed and developed a simple bus iOS mobile application to navigate bus users with ease._
+
+[Prototype here](https://seirayasumatsu.github.io/BusyBus/)
+
+![Prototype Screens](images/prototype)
 
 **Design Deliverables**
 * User Research
@@ -13,9 +16,7 @@
 **Specifications**
 * Duration: 4 weeks
 * Tools & Software: Figma, Adobe Suite, HTML, CSS
+ 
 
-**Summary**
-Designed and developed a simple bus iOS mobile application to navigate bus users with ease. 
 
-[Prototype here] (https://seirayasumatsu.github.io/BusyBus/)
 
