@@ -131,11 +131,11 @@ li.a{
 }
 
 .reroute{
-  color: #1a75ff;
+  color: #ff1a1a;
 }
 
 .outofservice{
-  color: #ff1a1a;
+  color: #808080;
 }
 
 li.b{
@@ -168,7 +168,7 @@ li.change{
   display: inline-block;
   width: 20%;
   padding: 20px 5px 0 20px;
-  color:#1a75ff;
+  color:#ff1a1a;
   font-weight: bold;
   font-size: 1.7em;
 }
@@ -177,7 +177,7 @@ li.alert{
   display: inline-block;
   width: 17%;
   padding: 6px 0 0 20px;
-  color:#ff1a1a;
+  color:#808080;
   font-weight: bold;
   font-size: 1.7em;
 }
