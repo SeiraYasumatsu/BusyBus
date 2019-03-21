@@ -4,7 +4,7 @@ _Designed and developed a simple bus iOS mobile application to navigate bus user
 
 [Prototype here](https://seirayasumatsu.github.io/BusyBus/)
 
-![Image](file:///C:/Users/Seira/Desktop/Bloc/UX%20Fundamental/Fundamentals%20Assessment/image/Finaldesign2_2screens.svg)
+![Prototype Screens](images/prototype)
 
 **Design Deliverables**
 * User Research
